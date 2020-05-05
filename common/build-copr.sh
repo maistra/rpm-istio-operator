@@ -54,7 +54,7 @@ function patch_spec() {
   release="%{git_shortcommit}%{?dist}"
 
   echo "DEV_MODE set, patching the .spec Release field to: ${release}"
-  sed -i "s/^Release:.*/Release: ${release}/" ior.spec
+  sed -i "s/^Release:.*/Release: ${release}/" "${REPO}.spec"
 }
 
 function generate_srpm() {
