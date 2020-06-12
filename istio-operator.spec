@@ -13,7 +13,7 @@
 %global debug_package   %{nil}
 %endif
 
-%global git_commit 4994802f49ea05c6356365f650fee5e9f39bd67f
+%global git_commit 63059c64cdf54fd4a92fd3aaa6e363b372f6b928
 %global git_shortcommit  %(c=%{git_commit}; echo ${c:0:7})
 
 %global provider        github
